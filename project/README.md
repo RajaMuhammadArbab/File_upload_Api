@@ -6,13 +6,13 @@ A secure Django REST API to upload, list, and download files with token-based au
 
 ##  Features
 
-- 🔒 Token Authentication
-- 📁 File Upload with size/type validation
-- 📝 File List API
-- 📥 File Download API
-- 🔐 Only authenticated users can access/upload/download
-- 🧾 Allowed types: `.png`, `.jpg`, `.jpeg`, `.pdf`
-- 🚫 Max size: 5 MB
+-  Token Authentication
+-  File Upload with size/type validation
+-  File List API
+-  File Download API
+-  Only authenticated users can access/upload/download
+-  Allowed types: `.png`, `.jpg`, `.jpeg`, `.pdf`
+- Max size: 5 MB
 
 ---
 
@@ -81,9 +81,9 @@ fileupload_project/
 
 ---
 
-## 📮 API Endpoints
+##  API Endpoints
 
-### 🔑 Get Auth Token
+###  Get Auth Token
 
 **POST** `/api/token/`
 
@@ -102,7 +102,7 @@ fileupload_project/
 
 ---
 
-### 📤 Upload File
+###  Upload File
 
 **POST** `/api/upload/`
 
@@ -143,7 +143,7 @@ Authorization: Token <your_token>
 
 ---
 
-### 📥 Download File
+###  Download File
 
 **GET** `/api/files/<filename>/`
 
@@ -159,7 +159,7 @@ Authorization: Token <your_token>
 
 ---
 
-## 🧪 Testing in Postman
+##  Testing in Postman
 
 1. **Login with `/api/token/`** to get token
 2. **Set Authorization Header:**
@@ -170,7 +170,7 @@ Authorization: Token <your_token>
 
 ---
 
-## 📂 Media Settings
+##  Media Settings
 
 ```python
 MEDIA_URL = '/media/'
