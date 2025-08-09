@@ -176,3 +176,11 @@ Authorization: Token <your_token>
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'uploads'
 ```
+## Project Demo
+
+<img width="1387" height="855" alt="1" src="https://github.com/user-attachments/assets/0231a98e-f050-46d9-b166-e2c7212cd428" />
+<img width="1887" height="976" alt="2" src="https://github.com/user-attachments/assets/40d71eb0-298d-4a80-a523-6813836f0b58" />
+<img width="1378" height="693" alt="3" src="https://github.com/user-attachments/assets/9055fbc4-41c1-420c-ae7c-888dcd43e4b4" />
+<img width="1386" height="870" alt="4" src="https://github.com/user-attachments/assets/a31786ab-ed04-4bde-80fd-fadac1a0aa9b" />
+<img width="1771" height="867" alt="5" src="https://github.com/user-attachments/assets/47427aa6-021e-4e13-8ce2-f816dce80b56" />
+
